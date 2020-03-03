@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RENT A CAR</string>
+
+
+    <string-array name="type">
+        <item>Sedan</item>
+        <item>SUV</item>
+        <item>Truck</item>
+    </string-array>
+
+</resources>

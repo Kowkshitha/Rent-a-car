@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00BBA6">
+
+            <!--<ImageButton-->
+            <!--android:id="@+id/ic_back"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:shadowColor="#000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="0.6"
+                android:text="Select Dates"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/category"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Element :"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/spinnerCategory"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_margin="16dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:entries="@array/elements"-->
+            <!--/>-->
+
+        <TextView
+            android:id="@+id/fromdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:text="From Date : YYYY-MM-DD"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_from_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ib_from_date"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="0"
+                android:background="@drawable/calendar_icon" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/todate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:text="To Date : YYYY-MM-DD"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/toDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ib_to_date"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_weight="0"
+                android:background="@drawable/calendar_icon" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnpay"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#FF638724"
+            android:textColor="#ffffff"
+            android:text="Check Out Now" />
+
+
+        <TextView
+            android:id="@+id/tvamount"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="16dp"
+            android:text="result"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

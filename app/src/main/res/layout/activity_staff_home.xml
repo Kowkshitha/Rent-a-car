@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bgfinal"
+    android:orientation="vertical"
+
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btnstaffprofile"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/bg5"
+
+            android:drawableRight="@drawable/nexthand"
+
+            android:layout_marginLeft="50dp"
+
+            android:text="PROFILE"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/darker_gray"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btnsaddcars"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/bg5"
+
+            android:drawableRight="@drawable/nexthand"
+
+            android:layout_marginLeft="50dp"
+
+            android:text="ADD CARS"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/darker_gray"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btnsviewcars"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/bg5"
+
+            android:drawableRight="@drawable/nexthand"
+
+            android:layout_marginLeft="50dp"
+
+            android:text="VIEW CARS"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/darker_gray"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btnstaffbookings"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/bg5"
+
+
+            android:layout_marginLeft="50dp"
+            android:drawableRight="@drawable/nexthand"
+
+            android:text="Bookings"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/darker_gray"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/btnstafffeed"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/bg5"
+
+
+            android:layout_marginLeft="50dp"
+            android:drawableRight="@drawable/nexthand"
+
+            android:text="FEEDBACKS"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/darker_gray"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

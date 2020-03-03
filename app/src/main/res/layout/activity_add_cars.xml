@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ADD CAR "
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:id="@+id/iv_img"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ic_no_image"
+                android:layout_height="100dp" />
+            <Button
+                android:id="@+id/btn_camera"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_height="35dp"
+                android:text="Camera"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#FFF"
+                android:background="#E78200"
+                android:layout_gravity="center_vertical"
+                />
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_height="35dp"
+                android:text="Gallery"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textColor="#FFF"
+                android:background="#E78200"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Type"/>
+            <Spinner
+                android:id="@+id/spcartype"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:entries="@array/type"
+
+
+                />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etcarmake"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Make"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etcarmodel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Model"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etcaryear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Year"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etcarcolor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Color"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etcarprice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Price"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:id="@+id/etcarnumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="License Plate"
+                android:paddingLeft="10dp"
+                android:layout_margin="5dp"
+                android:paddingTop="10dp"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnsaddcar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:background="#FF638724"
+            android:textColor="#ffffff"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+
+            />
+
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Forgot Password? Please click here to reset"-->
+        <!--android:textStyle="italic"-->
+        <!--android:layout_gravity="center_horizontal"-->
+
+        <!--android:onClick="gotoforgot"/>-->
+    </LinearLayout>
+
+
+</ScrollView>

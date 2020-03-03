@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff"
+        android:layout_margin="20dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:id="@+id/imggetphoto"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#ffff"
+            android:padding="5dp"
+            android:stretchColumns="2" >
+
+
+
+
+
+
+            <!--<TableRow-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="5dp"-->
+                <!--android:gravity="center_horizontal" >-->
+
+
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_span="2"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:text="Car Details"-->
+                    <!---->
+                    <!--android:textColor="#000"-->
+                    <!--android:textStyle="bold"/>-->
+            <!--</TableRow>-->
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right" android:padding="5dp"
+                    android:text="Type" />
+
+                <TextView
+                    android:id="@+id/etgetcartype"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right" android:padding="5dp"
+                    android:text="Make" />
+
+                <TextView
+                    android:id="@+id/etgetcarmake"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvcmodel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Model" />
+
+                <TextView
+                    android:id="@+id/etgetcarmodel"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvyear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:text="Year" />
+
+                <TextView
+                    android:id="@+id/etgetcaryear"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:text="Color" />
+
+                <TextView
+                    android:id="@+id/etgercarcolor"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvplate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right"
+
+                    android:text="Licence Plate" />
+
+                <TextView
+                    android:id="@+id/etgetcarplate"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvpprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right"
+
+                    android:text="Price Per Day in $" />
+
+                <TextView
+                    android:id="@+id/etgetcarprice"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnbooknow"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_span="2"
+                    android:background="#FF638724"
+                    android:textColor="#ffffff"
+                    android:text="Book Now" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btncheckstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:padding="10dp"
+                    android:visibility="gone"
+                    android:textSize="12dp"
+
+                    android:text="Available on 30/11/2019" />
+
+                <TextView
+                    android:id="@+id/tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:padding="10dp"
+
+                    android:textSize="16dp"
+
+                    android:textColor="#000000"
+                    android:text="Available on 30/11/2019" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

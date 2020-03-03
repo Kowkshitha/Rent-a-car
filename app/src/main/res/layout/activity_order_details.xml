@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff"
+        android:layout_margin="20dp"
+        >
+
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#ffff"
+            android:padding="5dp"
+            android:stretchColumns="2" >
+
+
+
+
+
+
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:gravity="center_horizontal" >
+
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Order Details"
+
+            android:textColor="#000"
+            android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right" android:padding="5dp"
+                    android:text="Order Id" />
+
+                <TextView
+                    android:id="@+id/tvoid"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right" android:padding="5dp"
+                    android:text="Car Id" />
+
+                <TextView
+                    android:id="@+id/tvocid"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvcmodel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Number Plate" />
+
+                <TextView
+                    android:id="@+id/tvoplate"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvyear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:text="Customer" />
+
+                <TextView
+                    android:id="@+id/tvouser"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:text="From" />
+
+                <TextView
+                    android:id="@+id/tvofrom"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvplate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right"
+
+                    android:text="To" />
+
+                <TextView
+                    android:id="@+id/tvoto"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvpprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="right"
+
+                    android:text="Amount" />
+
+                <TextView
+                    android:id="@+id/tvoamount"
+                    android:layout_weight="1"
+                    android:paddingLeft="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnoreturn"
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:layout_span="2"
+                    android:background="#FF638724"
+                    android:textColor="#ffffff"
+                    android:text="Return Now" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnfeedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:padding="10dp"
+                    android:background="#d40913"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp"
+                    android:text="Give Feedback" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

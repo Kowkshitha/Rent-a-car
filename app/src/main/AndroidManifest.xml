@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rentacar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".GetCarsActivity" />
+        <activity android:name=".StaffLoginActivity" />
+        <activity android:name=".StaffHomeActivity" />
+        <activity
+            android:name=".AddCarsActivity"
+            android:parentActivityName=".StaffHomeActivity" />
+        <activity
+            android:name=".StaffProfileActivity"
+            android:parentActivityName=".StaffHomeActivity" />
+        <activity
+            android:name=".CustomerprofileActivity"
+            android:parentActivityName=".CustomerHomeActivity" />
+        <activity
+            android:name=".CustomerViewCarsActivity"
+            android:parentActivityName=".CustomerHomeActivity" />
+        <activity android:name=".CustomerHomeActivity" />
+        <activity
+            android:name=".AddStaffActivity"
+            android:parentActivityName=".AdminHomeActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity
+            android:name=".CarDetailsActivity"
+            android:parentActivityName=".CustomerViewCarsActivity" />
+        <activity
+            android:name=".StaffViewCarsActivity"
+            android:parentActivityName=".StaffHomeActivity" />
+        <activity
+            android:name=".UpdateCarsActivity"
+            android:parentActivityName=".StaffViewCarsActivity" />
+        <activity
+            android:name=".AdminViewStaffActivity"
+            android:parentActivityName=".AdminHomeActivity" />
+        <activity
+            android:name=".AdminViewCarsActivity"
+            android:parentActivityName=".AdminHomeActivity" />
+        <activity
+            android:name=".UpdateStaffActivity"
+            android:parentActivityName=".AdminViewStaffActivity" />
+        <activity
+            android:name=".BookNowActivity"
+            android:parentActivityName=".CustomerViewCarsActivity" />
+        <activity
+            android:name=".PaymentDetailsActivity"
+            android:parentActivityName=".BookNowActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity
+            android:name=".CustomerSearchCarActivity"
+            android:parentActivityName=".CustomerHomeActivity" />
+        <activity
+            android:name=".CusearchCarsListActivity"
+            android:parentActivityName=".CustomerHomeActivity" />
+        <activity
+            android:name=".StaffViewBookingsActivity"
+            android:parentActivityName=".StaffHomeActivity" />
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:parentActivityName=".MyOrdersActivity" />
+        <activity
+            android:name=".MyOrdersActivity"
+            android:parentActivityName=".CustomerHomeActivity" />
+        <activity android:name=".FeedbackActivity"
+            android:parentActivityName=".OrderDetailsActivity"
+            />
+        <activity
+            android:name=".StaffViewFeedbacksActivity"
+            android:parentActivityName=".StaffHomeActivity" />
+        <activity
+            android:name=".AdminFeedbackActivity"
+            android:parentActivityName=".AdminHomeActivity" />
+        <activity
+            android:name=".AdminReportsActivity"
+            android:parentActivityName=".AdminHomeActivity" />
+        <activity android:name=".UpdateProfileActivity" />
+        <activity android:name=".HelpActivity"
+            android:parentActivityName=".CustomerHomeActivity"></activity>
+    </application>
+
+</manifest>

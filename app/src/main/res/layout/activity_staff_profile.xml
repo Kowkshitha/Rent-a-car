@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_margin="20dp"
+            >
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:gravity="center"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/etsname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Name"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="5dp"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/etsemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="5dp"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/etsphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Phone"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="5dp"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/etspass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_margin="5dp"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--&gt;-->
+            <!--<Button-->
+            <!--android:id="@+id/btnupdate"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:hint="update"-->
+            <!--android:editable="false"-->
+            <!--android:focusable="false"-->
+            <!--android:clickable="false"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--/>-->
+
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

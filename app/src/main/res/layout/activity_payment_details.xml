@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dollar"/>
+
+
+
+    <TextView
+        android:id="@+id/tvgetmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="money"
+        android:textSize="25dp"
+        android:textColor="#44a9c6"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <RadioButton
+            android:id="@+id/rbnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Internet Banking"
+
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/rbdebet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Debit Card"
+
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/rbcredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Credit Card"
+
+            android:textSize="25dp" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnmakepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:layout_margin="40dp"
+        android:background="#41ab58"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
